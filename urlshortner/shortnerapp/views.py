@@ -6,7 +6,8 @@ import pyshorteners
 import json
 import os
 # Create your views here.
-
+'''
+this is api which will short the URL'''
 @api_view(["POST"])
 def home(request):
     if request.method == "POST":
